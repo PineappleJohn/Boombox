@@ -74,7 +74,7 @@ public class SongManager : MonoBehaviour
     {
         playing = true;
         source.UnPause();
-        Invoke(nameof(PreparePlaylistSwap), source.time);
+        Invoke(nameof(PreparePlaylistSwap), currentSong.length - source.time);
     }
 
     public void SwapSong(AudioClip clip)
