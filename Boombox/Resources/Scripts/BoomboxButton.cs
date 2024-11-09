@@ -6,6 +6,7 @@ public class BoomboxButton : MonoBehaviour
 {
     public float amt = 10;
     public BBtypes ButtonType;
+    public SongManager mg;
     private void Start()
     {
         GetComponent<Collider>().isTrigger = true;
@@ -14,9 +15,6 @@ public class BoomboxButton : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (!other.gameObject.CompareTag("HandTag")) return;
-
-        SongManager mg = GetComponentInParent<SongManager>();
-
         switch (ButtonType)
         {
             case BBtypes.Rewind:
