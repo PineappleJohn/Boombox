@@ -11,4 +11,5 @@
 - 5 Starter songs<br/>
 And more coming soon!<br/>
 # Find an issue? Report it to Issues!
+# Want to contribute? Make a pull request!
 (ANY RESOURCES USED ARE MADE BY ME, CREDITED, OR FREE USE)
