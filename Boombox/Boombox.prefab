@@ -1208,6 +1208,7 @@ GameObject:
   - component: {fileID: 6127829583382428719}
   - component: {fileID: 3163138132144050979}
   - component: {fileID: 5292754988068173540}
+  - component: {fileID: 181384816734609904}
   m_Layer: 0
   m_Name: Boombox
   m_TagString: Untagged
@@ -1423,6 +1424,29 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &181384816734609904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4640424465479473913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb35241998c0e27419d2a2697bb2cee7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliders:
+  - {fileID: 5668481581736862916}
+  - {fileID: 7856743789242016058}
+  - {fileID: 8854337046336616738}
+  - {fileID: 4152999636557986435}
+  - {fileID: 2110759832498479274}
+  - {fileID: 7279231284788723958}
+  - {fileID: 3255899359479417812}
+  - {fileID: 7685493827306617781}
+  - {fileID: 1520720321501077318}
+  - {fileID: 8620075650630342991}
 --- !u!1 &5040652362070625649
 GameObject:
   m_ObjectHideFlags: 0
