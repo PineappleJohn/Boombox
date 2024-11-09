@@ -10,5 +10,4 @@
 - Built-in pause & play buttons (May be glitchy!)<br/>
 - 5 Starter songs<br/>
 And more coming soon!<br/>
-<br/>
 # Find an issue? Report it to Issues!
