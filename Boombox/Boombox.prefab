@@ -660,6 +660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amt: 10
   ButtonType: 3
+  mg: {fileID: 6117101400597416830}
 --- !u!65 &8620075650630342991
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1164,10 +1165,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 2166110316073060416}
   playlist:
-  - {fileID: 8300000, guid: b6745c2afd43d6848a8f0b998ae0300a, type: 3}
-  - {fileID: 8300000, guid: 4e4f8bbff87e8e14cbb751dd147657a9, type: 3}
   - {fileID: 8300000, guid: 46f4efc5730c8d34b8a36de7a60722c8, type: 3}
+  - {fileID: 8300000, guid: 4e4f8bbff87e8e14cbb751dd147657a9, type: 3}
   - {fileID: 8300000, guid: d93c9703b1faac1449329626f5c1bc5a, type: 3}
+  - {fileID: 8300000, guid: b6745c2afd43d6848a8f0b998ae0300a, type: 3}
   - {fileID: 8300000, guid: fcb3a5eb477878d4fb1b92ae2f5c9b04, type: 3}
   shuffle: 0
   saveSong: 0
@@ -2731,6 +2732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amt: 10
   ButtonType: 2
+  mg: {fileID: 6117101400597416830}
 --- !u!65 &1520720321501077318
 BoxCollider:
   m_ObjectHideFlags: 0
